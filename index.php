@@ -6,6 +6,7 @@ $res=pg_query($Connect,'select * from public.student');
     ?>
     <p>this is <?php echo($row['name']) ?> a/an<?php echo($row['class'])?></p>
     <?php
+    break;
 }
 ?>
 </div>
